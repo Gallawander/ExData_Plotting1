@@ -1,5 +1,10 @@
-### For this operation data.table package is needed ###
-### Checks for the presence of data.table package ###
+##### This script subsets the household power consumption dataset containing only data from the dates 2007-02-01 and 2007-02-02 to write a new dataset called data.txt #####
+# The original dataset is available here: https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+# The original dataset has 2,075,259 rows and 9 columns
+# File size of the original dataset is: 128 MB
+# NOTE: Package "data.table" is required for proper function of this script
+
+### Checks  whether the package is installed ###
 if(!require(data.table)){
   install.packages("data.table")
   library(data.table)
