@@ -2,7 +2,7 @@
 # The original dataset is available here: https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 # The original dataset has 2,075,259 rows and 9 columns
 # File size of the original dataset is: 128 MB
-# NOTE: Package "data.table" is required for proper function of this script
+# NOTE: Package "data.table" is required for proper functioning of this script
 
 ### Checks  whether the package is installed ###
 if(!require(data.table)){
